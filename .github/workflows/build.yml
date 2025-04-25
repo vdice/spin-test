@@ -16,6 +16,7 @@ on:
       - ".plugin-manifests/**"
       - "*.md"
       - "LICENSE"
+  workflow_call:
 
 env:
   CARGO_TERM_COLOR: always
